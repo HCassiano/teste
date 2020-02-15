@@ -11,7 +11,6 @@ pipeline {
                 sh 'python -m py_compile sources/lib.py sources/main.py' 
             }
         }
-    }
         stage('Test') {
             agent {
                 docker {
@@ -27,4 +26,5 @@ pipeline {
                 }
             }
         }
+    }
 }
