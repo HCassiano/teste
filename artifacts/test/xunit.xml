@@ -1,0 +1,8 @@
+<testsuite name="Mocha Tests" tests="6" failures="0" errors="0" skipped="0" timestamp="Fri, 28 Feb 2020 03:39:49 GMT" time="0.005">
+<testcase classname="" name="normal use case" time="0.001"/>
+<testcase classname="" name="neg to pos use case" time="0"/>
+<testcase classname="" name="neg to neg use case" time="0"/>
+<testcase classname="" name="0 to 0 use case" time="0"/>
+<testcase classname="" name="x to 0 use case" time="0"/>
+<testcase classname="" name="neg exp use case" time="0"/>
+</testsuite>
