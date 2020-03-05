@@ -11,7 +11,7 @@ app.get('/calculate', function (req, res) {
    sendResult(parseInt(req.query.x),parseInt(req.query.n),res);
 });
 
-app.listen(3000, function () {
+app.listen(3000, 'localhost', function () {
   console.log('Example app listening on port 3000!');
 });
 
