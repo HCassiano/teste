@@ -16,7 +16,7 @@ port = process.env.PORT || 3000;
 console.log(process.env)
 
 app.listen(port, host, function () {
-  console.log('listening on ' + host + 'on port ' + port);
+  console.log('listening on ' + host + ' on port ' + port);
 });
 
 
