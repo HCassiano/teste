@@ -11,8 +11,12 @@ app.get('/calculate', function (req, res) {
    sendResult(parseInt(req.query.x),parseInt(req.query.n),res);
 });
 
-app.listen(3000, '0.0.0.0', function () {
-  console.log('listening on ' + '3000');
+host = process.env.HOST || '0.0.0.0';
+port = process.env.PORT || 3000;
+console.log(process.env)
+
+app.listen(port, host, function () {
+  console.log('listening on ' + host + 'on port ' + port);
 });
 
 
