@@ -1,4 +1,5 @@
 set +x
+ip addr
 echo "executing page"
 node main.js &
 sleep 1

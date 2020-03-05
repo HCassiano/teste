@@ -23,8 +23,6 @@ pipeline {
         }
         stage('Deliver') {
             steps {
-                ip addr
-                echo 'executing:'
                 sh 'chmod +x ./scripts/deliver.sh'
                 sh 'chmod +x ./scripts/kill.sh'
                 sh './scripts/deliver.sh'
