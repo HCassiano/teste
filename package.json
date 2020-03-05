@@ -20,5 +20,8 @@
     "chai": "^4.2.0",
     "jenkins-mocha": "^8.0.0",
     "mocha": "^7.1.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
